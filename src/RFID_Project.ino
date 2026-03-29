@@ -17,17 +17,17 @@ const int daylightOffset_sec = 0;
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 // WiFi credentials
-const char* ssid = "moto";
-const char* password = "Ahkv@2005";
+const char* ssid = "WiFi SSID";
+const char* password = "WiFi PASSWORD";
 
 // Twilio credentials
-const char* accountSid = "AC30a6b17d3857151180cdd93963c96b56";
-const char* authToken = "d31d6bc08d596cb49eff386c0fea57b3";
-const char* twilioNumber = "+17755226310";
-const char* adminNumber = "+918150839959";
+const char* accountSid = "Twilio Account ID";
+const char* authToken = "TWilio Account Authentication Token";
+const char* twilioNumber = "Sender Number";
+const char* adminNumber = "Receiver Number";
 
 // Google Sheets webhook
-const char* sheetsUrl = "https://script.google.com/macros/s/AKfycbx_LfUZPUz61uVMON41t1693O3231K8M25_09cxTr1yk3Bt8ufHwzDajjTeKR6lhTab/exec";
+const char* sheetsUrl = "google_sheets_URL";
 
 // Student database
 struct Student {
